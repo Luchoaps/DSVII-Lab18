@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Laboratorio 18.1</title>
+</head>
+<body>
+    <form name="formularioDatos" method="post" action="lab181.php">
+        <p>Por favor ingresar los siguientes datos: </p><br/>
+        Nombre<input type="text" name="nombre" value=""><br/><br/>
+        Apellido<input type="text" name="apellido" value=""><br/><br/>
+        Email<input type="text" name="email" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br/><br/>
+        Contrasena<input type="password" name="password" value=""><br/><br/>
+        Repetir Contrasena<input type="password" name="passwordR" value=""><br/><br/>
+        IP actual del equipo<input type="text" name="IP_actual" value=""><br/><br/>
+        <input value="Registrar usuario" type="submit" name="register" />
+    </form>
+    
+</body>
+</html>
